@@ -8,6 +8,7 @@ export const FoodsContainer = styled.div`
   margin-top: -140px;
 
   display: grid;
+  justify-items: center;
 
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 32px;

@@ -7,6 +7,7 @@ interface StyleProps {
 export const Container = styled.div<StyleProps>`
   background: #f0f0f5;
   border-radius: 8px;
+  max-width: 350px;
 
   header {
     background: #ffb84d;
@@ -25,6 +26,7 @@ export const Container = styled.div<StyleProps>`
     img {
       pointer-events: none;
       user-select: none;
+      width: 100%;
     }
   }
 

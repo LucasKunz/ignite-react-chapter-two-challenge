@@ -63,7 +63,7 @@ export default function Food(props: any) {
               id={`available-switch-${food.id}`}
               type="checkbox"
               checked={isAvailable}
-              onChange={() => toggleAvailable}
+              onChange={() => toggleAvailable()}
               data-testid={`change-status-food-${food.id}`}
             />
             <span className="slider" />

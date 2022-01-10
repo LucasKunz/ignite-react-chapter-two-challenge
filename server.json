@@ -23,6 +23,14 @@
       "price": "25.90",
       "available": false,
       "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food3.png"
+    },
+    {
+      "image": "https://blog.lacadordeofertas.com.br/wp-content/uploads/2018/01/1-pratos-tipicos-culin%C3%A1ria-italiana.jpg",
+      "name": "Moda italiana",
+      "price": "29,90",
+      "description": "Comida típica italiana",
+      "available": true,
+      "id": 4
     }
   ]
 }
